@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-export default StyleSheet.create({
+const StyleInput = StyleSheet.create({
   input: {
     height: 40,
     borderColor: "#ccc",
@@ -11,3 +11,5 @@ export default StyleSheet.create({
     width: "80%",
   },
 });
+
+export default StyleInput
