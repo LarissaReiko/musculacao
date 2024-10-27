@@ -1,5 +1,3 @@
-import { DefaultTheme } from "@react-navigation/native";
-import react from "react";
 import { StyleSheet, View, Text } from 'react-native';
 import React, { useState } from 'react';
 import { Picker } from '@react-native-picker/picker';
