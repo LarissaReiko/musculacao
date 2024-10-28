@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { StatusBar } from "expo-status-bar";
 import { StyleSheet, View, Text, Alert } from "react-native";
 import CustomButton from "../../components/CustomButton/CustomButton";
 import { Picker } from "@react-native-picker/picker";
 
-export default function DiasSemana() {
+export default function DiaSemana() {
   const [selectedDay, setSelectedDay] = useState();
   const [selectedSquence, setSelectedSequence] = useState();
 
@@ -58,6 +57,7 @@ export default function DiasSemana() {
           {exerciciosMock.map((exercicio, index) => {
             return (
               <Picker.Item
+                key={index}
                 label={exercicio.exercicio}
                 value={exercicio.exercicio}
               />
